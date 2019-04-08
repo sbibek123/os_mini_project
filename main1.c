@@ -20,6 +20,16 @@ int main()
            scanf("%d", &alloc[u][v]);
         }
     }
- //remaining 
 
+ //taking max. need i.e A, B, C of corresponding process
+int max[r][3];
+int y=0;
+   for(u=0; u<r;u++) {
+     printf("Enter A B C values for process %d \n",y);
+     y=y+1;
+      for(v=0;v<3;v++) {
+         scanf("%d", &max[u][v]);
+      }
+   }
+ //remaining 
 }
